@@ -22,15 +22,13 @@ When you're choosing a design system to learn from, or picking a React component
 
 ## What's inside
 
-Five categories:
+Each entry is `Name (link) — one-line note`. `SKILL.md` is a **dispatch index**: 2–3 top picks per category inline, with the full list in per-category reference files (loaded on demand):
 
-- 🏢 Major company DS — Material, Fluent, Carbon, Polaris, Atlassian, Lightning…
-- 🎨 Design token resources
-- 📚 Pattern library resources
-- ⚛️ React DS libraries
-- 📱 React Native DS libraries
-
-Extras in `references/more.md`.
+- 🏢 Major company DS — Material, Fluent, Carbon, Polaris, Atlassian, Lightning… → `references/major-company-systems.md`
+- 🎨 Design token resources → `references/design-tokens.md`
+- 📚 Pattern library resources → `references/pattern-libraries.md`
+- ⚛️ React DS libraries → `references/react-ds-libraries.md`
+- 📱 React Native DS libraries → `references/react-native-ds-libraries.md`
 
 ## Install
 
@@ -54,18 +52,22 @@ Which React design system should I adopt for a SaaS dashboard?
 
 ```
 design-systems-index/
-├── SKILL.md              # 5 categories (≤100 lines)
-├── references/
-│   └── more.md           # extra entries
+├── SKILL.md              # dispatch index: 2-3 picks per category + pointers
+├── references/           # per-category full lists (loaded on demand)
+│   ├── major-company-systems.md
+│   ├── design-tokens.md
+│   ├── pattern-libraries.md
+│   ├── react-ds-libraries.md
+│   └── react-native-ds-libraries.md
 └── README.md
 ```
 
 ## Sources & Attribution
 
-Curated and condensed from (please star the originals):
+Data sourced and curated from the following two awesome-lists — please star the originals:
 
-- [klaufel/awesome-design-systems](https://github.com/klaufel/awesome-design-systems)
-- [jbranchaud/awesome-react-design-systems](https://github.com/jbranchaud/awesome-react-design-systems)
+- [klaufel/awesome-design-systems](https://github.com/klaufel/awesome-design-systems) — design systems, design tokens, and pattern libraries.
+- [jbranchaud/awesome-react-design-systems](https://github.com/jbranchaud/awesome-react-design-systems) — React / React Native design-system component libraries.
 
 More awesome lists at [sindresorhus/awesome](https://github.com/sindresorhus/awesome).
 

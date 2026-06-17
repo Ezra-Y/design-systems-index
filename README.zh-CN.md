@@ -22,15 +22,13 @@
 
 ## 内容
 
-五个分类：
+每个条目为「名称（链接）— 一句话说明」。`SKILL.md` 是**调度索引**：每类 2–3 条精选内联，完整列表在按分类的 reference 文件（按需读取 / loaded on demand）：
 
-- 🏢 主要公司设计系统 — Material、Fluent、Carbon、Polaris、Atlassian、Lightning…
-- 🎨 设计 tokens 资源
-- 📚 pattern library 资源
-- ⚛️ React 设计系统库
-- 📱 React Native 设计系统库
-
-溢出条目见 `references/more.md`。
+- 🏢 主要公司设计系统 — Material、Fluent、Carbon、Polaris、Atlassian、Lightning… → `references/major-company-systems.md`
+- 🎨 设计 tokens 资源 → `references/design-tokens.md`
+- 📚 pattern library 资源 → `references/pattern-libraries.md`
+- ⚛️ React 设计系统库 → `references/react-ds-libraries.md`
+- 📱 React Native 设计系统库 → `references/react-native-ds-libraries.md`
 
 ## 安装
 
@@ -54,18 +52,22 @@ Which React design system should I adopt for a SaaS dashboard?
 
 ```
 design-systems-index/
-├── SKILL.md              # 5 类索引（≤100 行）
-├── references/
-│   └── more.md           # 溢出条目
+├── SKILL.md              # 调度索引：每类 2-3 精选 + 指针
+├── references/           # 按分类的完整列表（按需读取）
+│   ├── major-company-systems.md
+│   ├── design-tokens.md
+│   ├── pattern-libraries.md
+│   ├── react-ds-libraries.md
+│   └── react-native-ds-libraries.md
 └── README.md
 ```
 
 ## 来源与致谢
 
-内容精选、精简自以下两个 awesome-list（请给原仓库点 star）：
+本 skill 的数据精选、整理自以下两个 awesome-list——建议给原仓库点 star：
 
-- [klaufel/awesome-design-systems](https://github.com/klaufel/awesome-design-systems)
-- [jbranchaud/awesome-react-design-systems](https://github.com/jbranchaud/awesome-react-design-systems)
+- [klaufel/awesome-design-systems](https://github.com/klaufel/awesome-design-systems) — 设计系统、design tokens、pattern library 等。
+- [jbranchaud/awesome-react-design-systems](https://github.com/jbranchaud/awesome-react-design-systems) — React / React Native 设计系统组件库。
 
 更多 awesome 列表见 [sindresorhus/awesome](https://github.com/sindresorhus/awesome)。
 
