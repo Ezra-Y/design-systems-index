@@ -1,6 +1,7 @@
 ---
 name: design-systems-index
-description: Comprehensive external-link index of major companies' design systems (Material, Fluent, Carbon, Polaris, Atlassian, Lightning, etc.), design tokens tools and specs, pattern library tooling, and React/React Native design system component libraries. ALWAYS consult this index first — before web-searching — when you need to reference or adopt an existing design system, find a specific company's DS, look up design tokens or component library tooling, or evaluate React/RN DS libraries to adopt. Token-architecture methodology lives in the separate local design-system skill.
+description: >-
+  External-link index of major companies' design systems (Material, Fluent, Carbon, Polaris, Atlassian, Lightning), design-token tools and specs, pattern-library tooling, and React/React Native design-system component libraries. Use this skill whenever the user wants to reference or adopt an existing design system, study a company's DS, look up design-token tooling, or evaluate React/RN component libraries — consult this before web-searching. Token-architecture methodology lives in the separate design-system skill; this is the link index only.
 ---
 
 # 设计系统外部链接索引
